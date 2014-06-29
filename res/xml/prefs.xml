@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Shake Detector">
+    <CheckBoxPreference android:key="check"
+        android:title="Turn on Shake Detector"
+        android:summary="This enables shake detection"
+        />
+    </PreferenceCategory>
+    
+<PreferenceCategory android:title="Sensitivy">
+
+    <com.example.helpme.SeekBarPreference
+            android:key="force"
+                android:title="Min force to shake"
+                android:summary="Adjust force of shake"
+                android:defaultValue="50"
+                android:max="200"
+          
+            />
+    
+    <com.example.helpme.SeekBarPreference
+            android:key="duration"
+                android:title="Duration of Shake"
+                android:summary="Adjust the shakes duration"
+                android:defaultValue="600"
+                android:max="1000"
+          
+            />
+    
+</PreferenceCategory>
+
+</PreferenceScreen>
