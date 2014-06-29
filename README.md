@@ -4,7 +4,7 @@ kabach
 An Anti VAW app built for android. Developed for 1-day VAW hackthon, Nepal.
 
 
-<h2> Some Quick Snapshop </h2>
+<h2> Some Quick Snapshots </h2>
 <br/>
 Main Screen
 ![alt tag](https://raw.github.com/SushantKafle/kabach/master/outputs/Main.png)<br/>
